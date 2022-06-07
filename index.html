@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pilotos</title>
+</head>
+<body>
+    
+        <div>
+            <header>
+                <div class="flex-container menu">
+                <div class="logo"><img src="img/logo.png"/></div>
+                <form>
+                    <input type="text" id="input_search" name="search" placeholder="Pesquisar..">
+                    <div class="search-button">
+                        <button hidden id="button_search">Buscar</button>
+                    </div>
+                </form>
+            </header>
+        </div>
+    
+        <div class="flex-container listagem">
+            <div class="texto-listagem">
+                <h1>Pilotos</h1>
+                <h4 id="filter_user"><span></span></h4>    
+                <div id="list_users"></div>
+
+            </div>
+    
+            <div>
+                <div class="bloco-statistic wrap">
+                    <div class="bloco-items">
+                        <h2>Soma das idades</h2>
+                        <div id="list_idade"></div>
+                    </div>
+                    <div class="bloco-items ">
+                        <h2>Média das idades</h2>
+                        <div id="list_media"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</body>
+<script src="./js/script.js"></script>
+</html>
