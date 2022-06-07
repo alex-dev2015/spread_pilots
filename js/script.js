@@ -10,7 +10,7 @@ const dataJson = {
           "gender": "male",
           "name"  : "Alex Nascimento",
           "idade" : 34 ,
-          "picture" : "https://i.postimg.cc/RZpzJSxH/Alex.jpg" 
+          "picture" : "https://i.postimg.cc/SKp2K1cv/Alex.jpg" 
       },
       {
           "gender": "female",
