@@ -38,4 +38,4 @@ $ npm run server
 
 ## Usage <a name = "usage"></a>
 
-![users]()
+![users](https://github.com/alex-dev2015/spread_pilots/blob/main/img/slide.gif)
